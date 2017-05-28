@@ -386,11 +386,11 @@ hr
 }
 .box a #qa:hover
 {
-    color:#37474f;
+    color:#40a79b;
 }
 .box a #prp:hover
 {
-    color:#374e44;
+    color:#09304b;
 }
 #projects p
 {
@@ -415,15 +415,15 @@ hr
      background: rgba(227, 179, 77, 0.9);
     padding: 8px;
 }
-.box #port span
+.box #mbapp span
 {
-     background: rgba(55, 78, 68, 0.9);
+     background: rgba(9, 48, 75, 0.78);
     padding: 8px;
     color: white;
 }
 .box #quake span
 {
-     background: rgba(55, 71, 79, 0.9);
+     background: rgba(64, 167, 155, 0.9);
     padding: 8px;
     color: white;
 }
