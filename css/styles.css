@@ -86,17 +86,22 @@ input, textarea
     line-height: 30px;
     font-size: 20px;
 }
-body
+html,body
 {
     font-family: 'Julius Sans One', sans-serif;
     background: #f8f8f8;
     margin: 0 auto;
+    height: 100%;
 }
 header
 {
     background: url(../images/header_768.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     width: 100%;
-    height: 1080px;
+    height: 100%;
     color: white;
     overflow-x: hidden;
 
@@ -281,6 +286,7 @@ ul.social li a i.fa#social-google:hover {
 #art2 
 {
     background: url(../images/header2.jpg);
+    background-size: 100%;
     width: 100%;
     height: 100%;
     padding-bottom: 80px;
@@ -417,7 +423,7 @@ hr
 }
 .box #mbapp span
 {
-     background: rgba(9, 48, 75, 0.78);
+     background: rgba(0, 0, 0, 0.9);
     padding: 8px;
     color: white;
 }
@@ -566,6 +572,7 @@ footer ul li
     header
     {
     background: url(../images/header.jpg);
+        background-size: 100%;
     width: 100%;
     height: 1080px;
     background-repeat: no-repeat;
@@ -618,8 +625,10 @@ footer ul li
     #art2 
     {
     background: url(../images/header2.jpg);
-    width: 100%;
-    height: 100%;
+         background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     padding-bottom: 100px;
     }
 }
@@ -661,6 +670,10 @@ footer ul li
     #art2 
     {
     background: url(../images/header2_768.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     padding-bottom: 80px;
     }
     header > ul > li
@@ -767,8 +780,10 @@ footer ul li
     #art2 
     {
     background: url(../images/header2_mob.jpg);
-    width: 100%;
-    height: 100%;
+     background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     padding-bottom: 80px;
     }
     #art2 h1
@@ -891,8 +906,10 @@ footer ul li
     #art2 
     {
     background: url(../images/header2_mob.jpg);
-    width: 100%;
-    height: 100%;
+     background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     padding-bottom: 80px;
     }
     #art2 h1
@@ -1012,8 +1029,10 @@ footer ul li
     #art2 
     {
     background: url(../images/header2_mob.jpg);
-    width: 100%;
-    height: 100%;
+    background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     padding-bottom: 80px;
     }
     #art2 h1
@@ -1158,8 +1177,10 @@ footer ul li
     #art2 
     {
     background: url(../images/header2_mob.jpg);
-    width: 100%;
-    height: 100%;
+     background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     padding-bottom: 80px;
     }
     #art2 h1
