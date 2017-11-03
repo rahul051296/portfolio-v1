@@ -76,7 +76,7 @@ function check() {
     var messsage = document.getElementById('message').value;
     $(document).ready(function () {
         $.ajax({
-            url: "http://theparkingspace.000webhostapp.com/contact.php?name="+name+"&email="+email+"&phone="+phone+"&message="+messsage,
+            url: "https://theparkingspace.000webhostapp.com/contact.php?name="+name+"&email="+email+"&phone="+phone+"&message="+messsage,
             success: function (result) {
                 var res = document.getElementById('response');
                 res.innerHTML = "Your request has been sent.";
