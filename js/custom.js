@@ -74,19 +74,24 @@ function check() {
     var email = document.getElementById('email').value;
     var phone = document.getElementById('phone').value;
     var messsage = document.getElementById('message').value;
-     var res = document.getElementById('response');
-                res.innerHTML = "Your request has been sent.";
-                res.className = "text-center label label-success";
+     
     var button = document.getElementById('dis').className = 'btn btn-block btn-info custom_btn hvr-glow disabled';
     $(document).ready(function () {
+        var res = document.getElementById('response');
         $.ajax({
             url: "https://theparkingspace.000webhostapp.com/contact.php?name="+name+"&email="+email+"&phone="+phone+"&message="+messsage,
             success: function (result) {
-                setTimeout(()=>{
-                    res.style.display = 'none';
-                },4000);
+                res.innerHTML = "Your request has been sent.";
+                res.className = "text-center label label-success";
+            },
+             error: function (textStatus, errorThrown) {
+                res.innerHTML = "Your request was not sent. Try Again";
+                res.className = "text-center label label-danger";
             }
         });
+        setTimeout(()=>{
+                    res.style.display = 'none';
+                },8000);
     });
     
 }
