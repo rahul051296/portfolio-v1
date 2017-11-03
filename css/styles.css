@@ -178,6 +178,12 @@ nav ul li a:hover
 	background:  url(../images/menu-icon.png) center;
 
 }
+#response {
+	text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 5px;
+}
 #pointer 
 {
     position: absolute;

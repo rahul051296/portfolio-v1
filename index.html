@@ -301,9 +301,7 @@
                 <div class="container">
                     
                 <h1 class="text-center text-primary">Contact Me</h1>
-                
-                    <form class="wow animated fadeIn delay-05s" method="post" action="https://contact-me-175910.appspot.com">
-                        <input type="hidden" name="submitted" value="true"/>
+            
                         <div class="row">
                             
                             <div class="col-md-5 col-md-offset-1 contact_lt ">
@@ -314,17 +312,22 @@
                             </div>
                             
                             <div class="col-md-5">
-                                <textarea style="resize:none; height:350px;" placeholder="Enter Your Message" name="message" class="form-control inp_rt"></textarea>
+                                <textarea style="resize:none; height:350px;" placeholder="Enter Your Message" name="message" id="message" class="form-control inp_rt"></textarea>
                             </div>  
                         </div>
                         <div class="row">
                             
                             <div class="col-md-10 col-md-offset-1">
-                                 <input type="submit" value="Submit" name="submit" class="btn btn-block btn-info custom_btn hvr-glow">
-                                
-                            </div>
+                                 <input type="submit" value="Submit" name="submit" class="btn btn-block btn-info custom_btn hvr-glow" onclick="check()">
                         </div>
-                    </form>
+                           <div class="row">
+                            
+                            <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+                               
+                                  <div id="response"></div>
+                                   </div>
+                        </div>
+                              
                 </div>
             </article>
         </section>
