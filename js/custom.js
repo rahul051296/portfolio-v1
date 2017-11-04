@@ -27,7 +27,7 @@ $(function () {
 window.onload = function () {
     Particles.init({
         selector: '#myCanvas',
-        color: '#00d19c',
+        color: '#f1f1f1',
         speed: 1.5,
 
 

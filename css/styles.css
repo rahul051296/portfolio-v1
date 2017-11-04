@@ -98,16 +98,16 @@ html,body
 }
 header
 {
-    background: url(../images/header_768.jpg);
+    background: radial-gradient(rgba(0,0,0,0),rgba(0,0,0,0.6)),url(../images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-attachment: fixed;
-    width: 100%;
     height: 100%;
+    width: 100%;
     color: white;
     overflow-x: hidden;
-
+    cursor:default;
 }
 header > h1
 {   
@@ -116,6 +116,7 @@ header > h1
     text-align: center;
     position: relative;
     top:20%;
+        text-shadow: 1px 2px #000;
     margin: 0;
     
 }
@@ -126,6 +127,7 @@ header > h3
     text-align: center;
     position: relative;
     top:20%;
+        text-shadow: 1px 2px #000;
     margin: 0;
     
     }
@@ -561,7 +563,7 @@ footer ul li
 {   #myCanvas
     {
         margin-top:170px;
-        height: 860px;
+        height: 80vh;
     }
     ul.social li a i.fa {
     color: #fff;
@@ -577,14 +579,6 @@ footer ul li
     text-align: center;
     margin: -80px;
     font-size: 18px;
-    }
-    header
-    {
-    background: url(../images/header.jpg);
-        background-size: 100%;
-    width: 100%;
-    height: 1080px;
-    background-repeat: no-repeat;
     }
     header > h1
     {   
@@ -642,17 +636,15 @@ footer ul li
     }
 }
 @media only screen and (max-width:1366px) and (min-width:768px)
-{   #myCanvas
-    {
+{   #myCanvas {
         margin-top: 110px;
         height: 650px;
     }
-    header
-    {
-    background: url(../images/header_768.jpg);
-    width: 100%;
-    height: 768px;
+    header {
+        width: 100%;
+        height: 768px;
     }
+  
     header > h1
     {   
     
@@ -701,13 +693,7 @@ footer ul li
 }
 @media only screen and (max-width:767px) and (min-width:627px)
 {   
-    header
-    {
-    background: url(../images/header_mob.jpg);
-    width: 100%;
-    height: 768px;
-    background-repeat: no-repeat;
-    }
+
     header > h1
     {   
     
@@ -754,8 +740,8 @@ footer ul li
 		display: none;
 		position: absolute;
 		padding: 20px;
-		background: #374e44;
-		border: 5px solid #22332b;
+		background: #544b40;
+		border: 5px solid #2f2c27;
 		right: 100px;
 		top: 90px;
 		width: 50%;
@@ -827,13 +813,7 @@ footer ul li
 }
 @media only screen and (max-width:626px) and (min-width:489px)
 {
-    header
-    {
-    background: url(../images/header_mob.jpg);
-    width: 100%;
-    height: 768px;
-    background-repeat: no-repeat;
-    }
+ 
     header > h1
     {   
     
@@ -880,8 +860,8 @@ footer ul li
 		display: none;
 		position: absolute;
 		padding: 20px;
-		background: #374e44;
-		border: 5px solid #22332b;
+		background: #544b40;
+		border: 5px solid #2f2c27;
 		right: 100px;
 		top: 90px;
 		width: 50%;
@@ -950,13 +930,7 @@ footer ul li
 }
 @media only screen and (max-width:488px) and (min-width:361px)
 {
-    header
-    {
-    background: url(../images/header_mob.jpg);
-    width: 100%;
-    height: 768px;
-    background-repeat: no-repeat;
-    }
+ 
     header > h1
     {   
     
@@ -1003,8 +977,8 @@ footer ul li
 		display: none;
 		position: absolute;
 		padding: 20px;
-		background: #374e44;
-		border: 5px solid #22332b;
+		background: #544b40;
+		border: 5px solid #2f2c27;
 		right: 100px;
 		top: 90px;
 		width: 50%;
@@ -1082,12 +1056,8 @@ footer ul li
 }
 @media only screen and (max-width:360px)
 {   
-    header
-    {
-    background: url(../images/header_mob.jpg);
-    width: 100%;
-    height: 700px;
-    background-repeat: no-repeat;
+    header{
+        height: 600px;
     }
     header > h1
     {   
@@ -1142,9 +1112,9 @@ footer ul li
 
 		display: none;
 		position: absolute;
+        background: #544b40;
+		border: 5px solid #2f2c27;
 		padding: 20px;
-		background: #374e44;
-		border: 5px solid #22332b;
 		right: 100px;
 		top: 90px;
 		width: 50%;
