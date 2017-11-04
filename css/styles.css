@@ -1056,9 +1056,6 @@ footer ul li
 }
 @media only screen and (max-width:360px)
 {   
-    header{
-        height: 600px;
-    }
     header > h1
     {   
     
