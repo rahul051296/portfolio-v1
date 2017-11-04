@@ -1057,11 +1057,6 @@ footer ul li
 @media only screen and (max-width:360px)
 {  
     header {
-        background: url(../images/background.jpg);
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: cover;
         height: 600px;
     }
     header > h1
