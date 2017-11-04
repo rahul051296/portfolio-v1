@@ -86,6 +86,9 @@ input, textarea
     line-height: 30px;
     font-size: 20px;
 }
+body{
+    overflow-x: hidden;
+}
 html,body
 {
     font-family: 'Julius Sans One', sans-serif;
