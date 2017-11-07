@@ -61,6 +61,7 @@
 
         ga('create', 'UA-87119922-4', 'auto');
         ga('send', 'pageview');
+
     </script>
 </head>
 
@@ -79,7 +80,7 @@
     <canvas id="myCanvas" style=""></canvas>
     <header class="container-fluid" id="home">
         <h2 class="hidden-lg hidden-md hidden-sm animated fadeIn delay-4s"><img src="images/head.png" class="img-responsive" width="40px"></h2>
-        <!--<img src="images/logo.png" width="60px" id="logo" class="hidden-xs animated fadeInDown delay-4s">-->
+
         <h1 class="animated fadeInDown delay-4s">Rahul Prabhakar</h1>
         <h3 class="animated fadeInDown delay-4s">Developer</h3>
 
@@ -265,16 +266,16 @@
 
                 <div class="col-md-4 col-sm-6 col-xs-12 main-box wow animated fadeIn delay-1s">
                     <a href="" target="_blank" data-toggle="modal" data-target="#movieBuffsModal">
-                        <img src="images/project_mb.jpg" class="img-responsive">
+                        <img src="images/project_mb.jpg" class="img-responsive banner">
                         </a>
                     <div class="box">
-                        <h5  id="movies"><span>Web App</span></h5>
+                        <h5 id="movies"><span>Web App</span></h5>
                     </div>
                 </div>
 
                 <div class="col-md-4 col-sm-6 col-xs-12 main-box wow animated fadeIn delay-1s">
                     <a href="" target="_blank" data-toggle="modal" data-target="#quakeModal">
-                        <img src="images/project_quake.jpg" class="img-responsive">
+                        <img src="images/project_quake.jpg" class="img-responsive banner">
                         </a>
                     <div class="box">
                         <h5 id="quake"><span>Android App</span></h5>
@@ -283,22 +284,22 @@
 
                 <div class="col-md-4 col-sm-6 col-xs-12 main-box wow animated fadeIn delay-1s">
                     <a href="" target="_blank" data-toggle="modal" data-target="#mbAppModal">
-                        <img src="images/project_mb_app.jpg" class="img-responsive">
+                        <img src="images/project_mb_app.jpg" class="img-responsive banner">
                         </a>
                     <div class="box">
                         <h5 id="mbapp"><span>Android App</span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 main-box wow animated fadeIn delay-1s">
-                    <a href="http://rahulprabhakar.in/SJCE-CSE/" target="_blank">
-                        <img src="images/project_cse.jpg" class="img-responsive">
+                    <a href="" target="_blank" data-toggle="modal" data-target="#cseModal">
+                        <img src="images/project_cse.jpg" class="img-responsive banner">
                         </a>
                     <div class="box">
                         <h5 id="cse"><span>Website</span></h5>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 main-box wow animated fadeIn delay-1s">
-                    <a href="http://rahulprabhakar.in/Bounce/" target="_blank">
+                    <a href="" target="_blank" data-toggle="modal" data-target="#bounceModal">
                         <img src="images/project_bounce.jpg" class="img-responsive">
                         </a>
                     <div class="box">
@@ -310,7 +311,7 @@
         <section>
             <!-- Movie Buffs Modal -->
             <div class="modal fade" id="movieBuffsModal" role="dialog">
-                <div class="modal-dialog modal-lg">
+                <div class="modal-dialog modal-md">
 
                     <!-- Modal content-->
                     <div class="modal-content">
@@ -333,35 +334,38 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner">
                                     <div class="item active">
-                                        <img src="images/MB_Modal/00.jpg" alt="Los Angeles" style="width:100%;">
+                                        <img src="images/MB_Modal/00.jpg" style="width:100%;">
                                     </div>
 
                                     <div class="item">
-                                        <img src="images/MB_Modal/01.jpg" alt="Chicago" style="width:100%;">
+                                        <img src="images/MB_Modal/01.jpg" style="width:100%;">
                                     </div>
 
                                     <div class="item">
-                                        <img src="images/MB_Modal/02.jpg" alt="New york" style="width:100%;">
+                                        <img src="images/MB_Modal/02.jpg" style="width:100%;">
                                     </div>
                                     <div class="item">
-                                        <img src="images/MB_Modal/03.jpg" alt="New york" style="width:100%;">
+                                        <img src="images/MB_Modal/03.jpg" style="width:100%;">
                                     </div>
                                     <div class="item">
-                                        <img src="images/MB_Modal/04.jpg" alt="New york" style="width:100%;">
+                                        <img src="images/MB_Modal/04.jpg" style="width:100%;">
                                     </div>
                                     <div class="item">
-                                        <img src="images/MB_Modal/05.jpg" alt="New york" style="width:100%;">
+                                        <img src="images/MB_Modal/05.jpg" style="width:100%;">
                                     </div>
                                 </div>
                             </div>
                             <div class="details">
-                                <p class="text-center text-justify">Movie Buffs is a website made for the sole purpose of entertainment. It showcases some of the greatest movies of all times, and also provides details on your favorite TV Shows and Celebrities. This website was designed and developed using AngularJS, JQuery, CSS3, HTML5 Photoshop and other JS Plugins.</p>
-                                <div class="text-center">
-                                    <a href="http://movie-buffs.xyz/" target="_blank"><button type="button" class="btn btn-info">Visit Website</button></a>
-                                </div>
+                                <p class="text-center text-justify">Movie Buffs is a web app built to provide instant information about Movies, TV Shows and Celebrities. It showcases an ever growing list of over 350,000 movies and 70,000 TV Shows.</p>
+                                <p><b> FrontEnd: </b>AngularJS, JQuery, CSS3, HTML5.</p>
+                                <p> <b>BackEnd:</b> RESTful API from TMDB.</p>
+
+                            </div>
+                            <div class="text-center">
+                                <a href="http://movie-buffs.xyz/" target="_blank"><button type="button" class="btn btn-info">Visit Website</button></a>
                             </div>
                         </div>
-                        <div class="modal-footer">
+                        <div class="modal-footer hidden-lg hidden-md hidden-xl hidden-sm">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                         </div>
                     </div>
@@ -373,7 +377,7 @@
         <section>
             <!-- Quake Alert Modal -->
             <div class="modal fade" id="quakeModal" role="dialog">
-                <div class="modal-dialog modal-lg">
+                <div class="modal-dialog modal-md">
 
                     <!-- Modal content-->
                     <div class="modal-content">
@@ -396,14 +400,16 @@
                                 </div>
                             </div>
                             <div class="details">
-                                <p class="text-center text-justify">The Quake Alert App was developed to provide instant information on all the Earthquakes being recorded around the world. It provides detailed description on each earthquake and it's effects. This App was designed and developed using Android Studio(XML and Java) and Photoshop.
-                                </p>
-                                <div class="text-center">
-                                    <a href="https://play.google.com/store/apps/details?id=com.rahul0596.quakealert" target="_blank"><button type="button" class="btn btn-info">View on Play Store</button></a>
-                                </div>
+                                <p class="text-center text-justify">Quake Alert was developed to provide instant information on all the Earthquakes being recorded around the world. It provides detailed description on each earthquake and it's effects.</p>
+                                <p><b>FrontEnd: </b> Android Studio - Java, XML.</p>
+                                <p><b>BackEnd: </b> RESTful API from USGS.</p>
+
+                            </div>
+                            <div class="text-center">
+                                <a href="https://play.google.com/store/apps/details?id=com.rahul0596.quakealert" target="_blank"><button type="button" class="btn btn-info">View on Play Store</button></a>
                             </div>
                         </div>
-                        <div class="modal-footer">
+                        <div class="modal-footer hidden-lg hidden-md hidden-xl hidden-sm">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                         </div>
                     </div>
@@ -415,13 +421,13 @@
         <section>
             <!-- Movie Buffs App Modal -->
             <div class="modal fade" id="mbAppModal" role="dialog">
-                <div class="modal-dialog modal-lg">
+                <div class="modal-dialog modal-md">
 
                     <!-- Modal content-->
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h3 class="modal-title">Movie Buffs - Mobile App</h3>
+                            <h3 class="modal-title">Movie Buffs - Android App</h3>
                         </div>
                         <div class="modal-body">
                             <div id="mbAppCarousel" class="carousel slide" data-ride="carousel">
@@ -442,14 +448,123 @@
                                 </div>
                             </div>
                             <div class="details">
-                                <p class="text-center text-justify">MovieBuffs: Ecstasy of Cinema is the mobile application version of the Movie Buffs website. It provides the same functionality as the website with an easy to navigate UI. This App was designed and developed using Ionic Hybrid Mobile Application framework and Photoshop.
-                                </p>
-                                <div class="text-center">
-                                    <a href="https://play.google.com/store/apps/details?id=com.rahul0596.moviebuffs" target="_blank"><button type="button" class="btn btn-info">View on Play Store</button></a>
-                                </div>
+                                <p class="text-center text-justify">Movie Buffs is an Hybrid app built to provide instant information about Movies, TV Shows and Celebrities. It showcases an ever growing list of over 350,000 movies and 70,000 TV Shows. It comes with an easy to navigate native UI.</p>
+                                <p><b> FrontEnd: </b>Ionic Framework, SCSS, HTML.</p>
+                                <p> <b>BackEnd:</b> RESTful API from TMDB.</p>
+
+                            </div>
+                            <div class="text-center">
+                                <a href="https://play.google.com/store/apps/details?id=com.rahul0596.moviebuffs" target="_blank"><button type="button" class="btn btn-info">View on Play Store</button></a>
                             </div>
                         </div>
-                        <div class="modal-footer">
+                        <div class="modal-footer hidden-lg hidden-md hidden-xl hidden-sm">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <!-- CSE Modal -->
+            <div class="modal fade" id="cseModal" role="dialog">
+                <div class="modal-dialog modal-md">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Department of C.S.E | SJCE</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div id="cseCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#cseCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#cseCarousel" data-slide-to="1"></li>
+                                    <li data-target="#cseCarousel" data-slide-to="2"></li>
+                                    <li data-target="#cseCarousel" data-slide-to="3"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="images/CSE_Modal/01.jpg" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/CSE_Modal/02.jpg" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/CSE_Modal/03.jpg" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/CSE_Modal/04.jpg" style="width:100%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <p class="text-center text-justify">The Official website for the Department of Computer Science &amp; Engineering of St. Joseph's College &amp; Engineering, Chennai.
+                                </p>
+                                <p><b>FrontEnd:</b> Angular - TypeScript, jQuery, CSS3, HTML5</p>
+                            </div>
+                            <div class="text-center">
+                                <a href="rahulprabhakar.in/SJCE-CSE/" target="_blank"><button type="button" class="btn btn-info">Visit Website</button></a>
+                            </div>
+                        </div>
+                        <div class="modal-footer hidden-lg hidden-md hidden-xl hidden-sm">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <!-- Bounce Modal -->
+            <div class="modal fade" id="bounceModal" role="dialog">
+                <div class="modal-dialog modal-md">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Bounce - A JavaScript Game</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div id="bounceCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#bounceCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#bounceCarousel" data-slide-to="1"></li>
+                                    <li data-target="#bounceCarousel" data-slide-to="2"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="images/BOUNCE_Modal/02.jpg" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/BOUNCE_Modal/01.jpg" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/BOUNCE_Modal/03.jpg" style="width:100%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <p class="text-center text-justify">Bounce is a simple JavaScript based Game Module.
+                                </p>
+                                <p><b>FrontEnd: </b> JavaScript - ES6 Standard, CSS3, HTML.</p>
+
+                            </div>
+                            <div class="text-center">
+                                <a href="http://rahulprabhakar.in/Bounce/" target="_blank"><button type="button" class="btn btn-info">Visit Website</button></a>
+                            </div>
+                        </div>
+                        <div class="modal-footer hidden-lg hidden-md hidden-xl hidden-sm">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                         </div>
                     </div>
@@ -480,7 +595,7 @@
                 <div class="row">
 
                     <div class="col-md-10 col-md-offset-1">
-                        <input type="submit" value="Submit" name="submit" class="btn btn-block btn-info custom_btn hvr-glow" id="dis" onclick="check()">
+                        <input type="submit" value="Submit" name="submit" class="btn btn-block btn-info custom_btn hvr-glow banner" id="dis" onclick="check()">
                     </div>
                     <div class="row">
 
@@ -552,6 +667,7 @@
     <script src="js/wow.js"></script>
     <script>
         new WOW().init();
+
     </script>
     <script src="js/datedropper.min.js"></script>
     <script src="js/particles.js"></script>

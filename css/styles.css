@@ -102,18 +102,21 @@ body {
     border-radius: 30px;
 }
 .modal-header {
-    font-family: 'Roboto Condensed', sans-serif;;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: bolder;
     background: #243447;
     color: #fff;
 }
 .modal-content {
-font-family: 'Karla', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
 }
 .details {
 	font-size: 1.2em;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+.banner:focus{
+    outline: none;
 }
 header {
     background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../images/background.jpg);
