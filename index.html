@@ -61,7 +61,6 @@
 
         ga('create', 'UA-87119922-4', 'auto');
         ga('send', 'pageview');
-
     </script>
 </head>
 
@@ -264,55 +263,201 @@
             </div>
             <div class="container">
 
-                <div class="row ">
-                    <!-- <div class="col-md-4 main-box wow animated fadeIn delay-1s">
-                            
-                        </div> -->
-
-                    <div class="col-md-4 col-sm-12  main-box wow animated fadeIn delay-1s">
+                <div class="col-md-4 col-sm-6 col-xs-12 main-box wow animated fadeIn delay-1s">
+                    <a href="" target="_blank" data-toggle="modal" data-target="#movieBuffsModal">
                         <img src="images/project_mb.jpg" class="img-responsive">
-                        <div class="box">
-                            <h5 id="movies"><span>Website</span></h5>
-                            <a href="http://movie-buffs.xyz" target="_blank">
-                                <h3 id="mb">Movie Buffs</h3>
-                            </a>
-                            <hr>
-                            <p class="text-muted"><b>Movie Buffs</b> is a website made for the sole purpose of entertainment. It showcases some of the greatest movies of all times, and also provides details on your favorite TV Shows and Celebrities.</p>
-                            <p class="text-muted">This website was designed and developed using <b>AngularJS, JQuery, CSS3, HTML5 Photoshop and other JS Plugins.</b></p>
-                        </div>
+                        </a>
+                    <div class="box">
+                        <h5  id="movies"><span>Web App</span></h5>
                     </div>
+                </div>
 
-                    <div class="col-md-4 col-sm-12 main-box wow animated fadeIn delay-1s">
+                <div class="col-md-4 col-sm-6 col-xs-12 main-box wow animated fadeIn delay-1s">
+                    <a href="" target="_blank" data-toggle="modal" data-target="#quakeModal">
                         <img src="images/project_quake.jpg" class="img-responsive">
-                        <div class="box">
-                            <h5 id="quake"><span>Android App</span></h5>
-                            <a href="https://play.google.com/store/apps/details?id=com.rahul0596.quakealert" target="_blank">
-                                <h3 id="qa">Quake Alert</h3>
-                            </a>
-                            <hr>
-                            <p class="text-muted">The Quake Alert App was developed to provide instant details on all the Earthquakes taking place around the world. It provides detailed description on each earthquake and it's effects.</p>
-                            <p class="text-muted">This App was designed and developed using <b> Android Studio(XML and Java) and Photoshop. </b><br>Check it out on the <a href="https://play.google.com/store/apps/details?id=com.rahul0596.quakealert" target="_blank"><b>Google Play Store</b></a></p>
-                        </div>
+                        </a>
+                    <div class="box">
+                        <h5 id="quake"><span>Android App</span></h5>
                     </div>
+                </div>
 
-                    <div class="col-md-4 col-sm-12 main-box wow animated fadeIn delay-1s">
+                <div class="col-md-4 col-sm-6 col-xs-12 main-box wow animated fadeIn delay-1s">
+                    <a href="" target="_blank" data-toggle="modal" data-target="#mbAppModal">
                         <img src="images/project_mb_app.jpg" class="img-responsive">
-                        <div class="box">
-                            <h5 id="mbapp"><span>Android App</span></h5>
-                            <a href="https://play.google.com/store/apps/details?id=com.rahul0596.moviebuffs" target="_blank">
-                                <h3 id="prp">MovieBuffs: The App</h3>
-                            </a>
-                            <hr>
-                            <p class="text-muted"><b>MovieBuffs: Ecstasy of Cinema</b> is the mobile application version of the Movie Buffs website. It provides the same functionality as the website with an easy to navigate UI.</p>
-                            <p class="text-muted">This App was designed and developed using <b>Ionic Hybrid Mobile Application framework and Photoshop.</b><br>Check it out on the<a href="https://play.google.com/store/apps/details?id=com.rahul0596.moviebuffs" target="_blank"><b> Google Play Store</b></a></p>
-                        </div>
+                        </a>
+                    <div class="box">
+                        <h5 id="mbapp"><span>Android App</span></h5>
                     </div>
-
-
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 main-box wow animated fadeIn delay-1s">
+                    <a href="http://rahulprabhakar.in/SJCE-CSE/" target="_blank">
+                        <img src="images/project_cse.jpg" class="img-responsive">
+                        </a>
+                    <div class="box">
+                        <h5 id="cse"><span>Website</span></h5>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12 main-box wow animated fadeIn delay-1s">
+                    <a href="http://rahulprabhakar.in/Bounce/" target="_blank">
+                        <img src="images/project_bounce.jpg" class="img-responsive">
+                        </a>
+                    <div class="box">
+                        <h5 id="bounce"><span>Web App</span></h5>
+                    </div>
                 </div>
             </div>
         </article>
+        <section>
+            <!-- Movie Buffs Modal -->
+            <div class="modal fade" id="movieBuffsModal" role="dialog">
+                <div class="modal-dialog modal-lg">
 
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Movie Buffs</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div id="mbCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#mbCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#mbCarousel" data-slide-to="1"></li>
+                                    <li data-target="#mbCarousel" data-slide-to="2"></li>
+                                    <li data-target="#mbCarousel" data-slide-to="3"></li>
+                                    <li data-target="#mbCarousel" data-slide-to="4"></li>
+                                    <li data-target="#mbCarousel" data-slide-to="5"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="images/MB_Modal/00.jpg" alt="Los Angeles" style="width:100%;">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="images/MB_Modal/01.jpg" alt="Chicago" style="width:100%;">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="images/MB_Modal/02.jpg" alt="New york" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/MB_Modal/03.jpg" alt="New york" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/MB_Modal/04.jpg" alt="New york" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/MB_Modal/05.jpg" alt="New york" style="width:100%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <p class="text-center text-justify">Movie Buffs is a website made for the sole purpose of entertainment. It showcases some of the greatest movies of all times, and also provides details on your favorite TV Shows and Celebrities. This website was designed and developed using AngularJS, JQuery, CSS3, HTML5 Photoshop and other JS Plugins.</p>
+                                <div class="text-center">
+                                    <a href="http://movie-buffs.xyz/" target="_blank"><button type="button" class="btn btn-info">Visit Website</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <!-- Quake Alert Modal -->
+            <div class="modal fade" id="quakeModal" role="dialog">
+                <div class="modal-dialog modal-lg">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Quake Alert</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div id="qCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#qCarousel" data-slide-to="0" class="active"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="images/Quake_Modal/01.jpg" style="width:100%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <p class="text-center text-justify">The Quake Alert App was developed to provide instant information on all the Earthquakes being recorded around the world. It provides detailed description on each earthquake and it's effects. This App was designed and developed using Android Studio(XML and Java) and Photoshop.
+                                </p>
+                                <div class="text-center">
+                                    <a href="https://play.google.com/store/apps/details?id=com.rahul0596.quakealert" target="_blank"><button type="button" class="btn btn-info">View on Play Store</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <!-- Movie Buffs App Modal -->
+            <div class="modal fade" id="mbAppModal" role="dialog">
+                <div class="modal-dialog modal-lg">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Movie Buffs - Mobile App</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div id="mbAppCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#mbAppCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#mbAppCarousel" data-slide-to="1"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="images/MBAPP_Modal/01.jpg" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/MBAPP_Modal/02.jpg" style="width:100%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <p class="text-center text-justify">MovieBuffs: Ecstasy of Cinema is the mobile application version of the Movie Buffs website. It provides the same functionality as the website with an easy to navigate UI. This App was designed and developed using Ionic Hybrid Mobile Application framework and Photoshop.
+                                </p>
+                                <div class="text-center">
+                                    <a href="https://play.google.com/store/apps/details?id=com.rahul0596.moviebuffs" target="_blank"><button type="button" class="btn btn-info">View on Play Store</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
         <!--Contact Me Section-->
 
         <article id="contact">
@@ -407,7 +552,6 @@
     <script src="js/wow.js"></script>
     <script>
         new WOW().init();
-
     </script>
     <script src="js/datedropper.min.js"></script>
     <script src="js/particles.js"></script>
