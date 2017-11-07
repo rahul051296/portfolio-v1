@@ -1059,6 +1059,8 @@ footer ul li
     header {
         background: rgba(0,0,0,0),rgba(0,0,0,0.3)),url(../images/header_mobsm.jpg);
         height: 600px;
+        width: 100%;
+        background-size: auto;
         background-repeat: no-repeat;
     }
     header > h1
