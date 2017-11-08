@@ -13,7 +13,9 @@
 /*------------------
     PreLoader 
 --------------------*/
-
+i:hover{
+    text-decoration: none;
+}
 #preloader {
 
     position: fixed;
@@ -211,20 +213,11 @@ header {
 
 #pointer {
     color: white;
-    position: absolute;
-    top: 85vh;
-    left: 50%;
-    margin-left: -12px;
     padding: 0px 6px;
     display: none;
     border: 2px solid white;
     border-radius: 100%;
 }
-
-#pointer:hover {
-    text-decoration: none;
-}
-
 #pointer:focus {
     outline: none;
     text-decoration: none;
@@ -642,13 +635,51 @@ footer ul li {
         left: 92%;
         z-index: 4;
     }
+    #menu-icon {
+        display: none;
+    }
 
 }
 
 @media only screen and (max-width:767px) and (min-width:627px) {
-    #logo-img, #menu-icon {
-        display: none !important;
+     #menu-icon {
+
+        display: inline-block;
+        float: right;
+
     }
+     nav ul,
+    nav:active ul {
+
+        display: none;
+        position: absolute;
+        padding: 20px;
+        background: #544b40;
+        border: 5px solid #2f2c27;
+        right: 10px;
+        top: 0px;
+        width: 50%;
+        border-radius: 4px 0 4px 4px;
+
+
+    }
+
+    nav li {
+
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+        padding: 10px 0;
+        margin: 0;
+
+    }
+
+    nav:hover ul {
+        display: block;
+    }
+    .jumbotron {
+	top:5vh;
+}
     .jumbotron h1{
 	font-size: 4.5em;
 }
@@ -699,6 +730,9 @@ footer ul li {
         float: right;
 
     }
+    .jumbotron {
+	top: 5vh;
+}
     .jumbotron h1 {
         font-size: -webkit-xxx-large;
     }
@@ -773,6 +807,9 @@ footer ul li {
     .jumbotron h1 {
         font-size: -webkit-xxx-large;
     }
+    .jumbotron {
+	top: 1vh;
+}
     nav ul,
     nav:active ul {
 
@@ -945,6 +982,8 @@ footer ul li {
         left: 85%;
         z-index: 4;
     }
-
+    .jumbotron {
+	top:5vh;
+}
 
 }

@@ -38,16 +38,19 @@ window.onload = function () {
     Preloader
 ------------------ */
 
-$(window).on('load', function () {
-
-    $('#preloader').delay(3000).fadeOut();
-
-});
+window.onload = function(){
+    let timer = setTimeout(function(){
+        document.getElementById('preloader').className = 'animated fadeOut';
+    },4000);
+    let remove = setTimeout(function(){
+        document.getElementById('preloader').style.display = 'none';
+    },5000);
+    
+}
 
 $("#departure").dateDropper();
 
 $(document).ready(function () {
-
     $("#pointer").fadeIn(7000);
 });
 
