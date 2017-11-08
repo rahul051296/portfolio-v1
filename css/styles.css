@@ -677,9 +677,6 @@ footer ul li {
     nav:hover ul {
         display: block;
     }
-    .jumbotron {
-	top:5vh;
-}
     .jumbotron h1{
 	font-size: 4.5em;
 }
@@ -730,9 +727,7 @@ footer ul li {
         float: right;
 
     }
-    .jumbotron {
-	top: 5vh;
-}
+
     .jumbotron h1 {
         font-size: -webkit-xxx-large;
     }
@@ -807,9 +802,6 @@ footer ul li {
     .jumbotron h1 {
         font-size: -webkit-xxx-large;
     }
-    .jumbotron {
-	top: 1vh;
-}
     nav ul,
     nav:active ul {
 
