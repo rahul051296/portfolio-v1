@@ -22,6 +22,9 @@ $(function () {
     }).mouseout(function () {
         $(this).removeClass('animated pulse infinite');
     });
+        
+    $("#pointer").fadeIn(7000);
+
 });
 
 window.onload = function () {
@@ -29,31 +32,22 @@ window.onload = function () {
         selector: '#myCanvas',
         color: '#f1f1f1',
         speed: 1.5,
-
-
     });
+     let timer = setTimeout(function(){
+        document.getElementById('preloader').className = 'animated fadeOut';
+    },3000);
+    let remove = setTimeout(function(){
+        document.getElementById('preloader').style.display = 'none';
+    },4000);
+    
 };
 
 /*----------------
     Preloader
 ------------------ */
 
-window.onload = function(){
-    let timer = setTimeout(function(){
-        document.getElementById('preloader').className = 'animated fadeOut';
-    },4000);
-    let remove = setTimeout(function(){
-        document.getElementById('preloader').style.display = 'none';
-    },5000);
-    
-}
 
 $("#departure").dateDropper();
-
-$(document).ready(function () {
-    $("#pointer").fadeIn(7000);
-});
-
 
 $(document).ready(function () {
     $('#scroll').hide();
