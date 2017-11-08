@@ -34,7 +34,6 @@ window.onload = function () {
     });
 };
 
-
 /*----------------
     Preloader
 ------------------ */
@@ -93,8 +92,7 @@ function check() {
                 res.style.display = 'none';
             }, 8000);
         });
-    }
-    else{
+    } else {
         alert("Please fill out the form.");
     }
 }
