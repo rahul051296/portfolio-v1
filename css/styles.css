@@ -803,7 +803,10 @@ footer ul li {
 }
 
 @media only screen and (max-width:488px) and (min-width:360px) {
-
+    header {
+        background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../images/header_mobsm.jpg) no-repeat cover;
+        width: 100%;
+    }
     .jumbotron h1 {
         font-size: 4em;
     }
