@@ -93,3 +93,22 @@ function check() {
         alert("Please fill out the form.");
     }
 }
+
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+        loop:false,
+        dots: true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            600:{
+                items:2,
+            },
+            1000:{
+                items:3,
+            }
+        }
+    })
+  });

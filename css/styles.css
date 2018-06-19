@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 @font-face {
@@ -9,15 +8,25 @@
     src: url('dd-icon.ttf');
 }
 
+@font-face {
+    font-family: 'Google Sans';
+    src: url('../fonts/GoogleSans-Medium.ttf');
+}
+@font-face {
+    font-family: 'Google Sans Regular';
+    src: url('../fonts/GoogleSans-Regular.ttf');
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 /*------------------
     PreLoader 
 --------------------*/
-i:hover{
+
+i:hover {
     text-decoration: none;
 }
-#preloader {
 
+#preloader {
     position: fixed;
     top: 0;
     left: 0;
@@ -25,17 +34,14 @@ i:hover{
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 99;
-
 }
 
 #loader {
-
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: -100px;
-    margin-top: -50px;
-
+    margin-left: -125px;
+    margin-top: -63px;
 }
 
 .delay-05s {
@@ -60,14 +66,16 @@ i:hover{
     width: 100%;
     height: 100%;
     left: 0;
-    z-index: 0; //margin-top: 90px;
+    z-index: 0;
 }
-
+button.owl-dot:focus {
+    outline: none;
+}
 input,
 textarea {
     padding: 10px;
     margin-bottom: 30px;
-    font-family: 'Karla', 'sans-serif';
+    font-family: 'Google Sans', 'sans-serif';
 }
 
 .inp_lt {
@@ -130,14 +138,14 @@ nav ul li a:focus {
 }
 
 .modal-header {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Google Sans', sans-serif;
     font-weight: bolder;
     background: #243447;
     color: #fff;
 }
 
 .modal-content {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Google Sans', sans-serif;
 }
 
 .details {
@@ -163,7 +171,6 @@ header {
     cursor: default;
 }
 
-
 #menu-icon {
     position: absolute;
     right: 10px;
@@ -173,7 +180,6 @@ header {
     height: 40px;
     color: white;
     background: center;
-
 }
 
 #response {
@@ -221,13 +227,28 @@ header {
     border: 2px solid white;
     border-radius: 100%;
 }
+
+/* .owl-next span {
+    position: absolute;
+    right: 46%;
+    font-size: 2em;
+}
+.owl-prev span {
+    position: absolute;
+    left: 46%;
+    font-size: 2em;
+} */
+
 #pointer:focus {
     outline: none;
     text-decoration: none;
 }
-a:hover, a:focus {
-   text-decoration:none;
+
+a:hover,
+a:focus {
+    text-decoration: none;
 }
+
 /*-- social-icons --*/
 
 ul.social li {
@@ -252,7 +273,6 @@ ul.social li a i.fa#social-git:hover {
     background: #4078c0;
     color: white;
     border: 2px solid #4078c0;
-
 }
 
 ul.social li a i.fa#social-fb:hover {
@@ -279,7 +299,7 @@ ul.social li a i.fa#social-google:hover {
     padding: 80px 20px;
 }
 
-#about > h1,
+#about>h1,
 #projects h1,
 #qualification h1,
 #contact h1 {
@@ -290,14 +310,11 @@ ul.social li a i.fa#social-google:hover {
     background: #0077B5;
     color: white;
     font-weight: bold;
-
 }
 
 #about i {
     font-weight: bold;
     margin: 60px 0;
-
-
 }
 
 .about_con a i {
@@ -317,7 +334,7 @@ ul.social li a i.fa#social-google:hover {
 }
 
 #about i {
-    // padding-left: 20px;
+    /* padding-left: 20px; */
     position: relative;
     left: 50%;
     margin-left: -20px;
@@ -326,7 +343,7 @@ ul.social li a i.fa#social-google:hover {
 #about p {
     font-size: 18px;
     margin: 20px 0;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Google Sans Regular', sans-serif;
 }
 
 #art2 {
@@ -349,14 +366,12 @@ ul.social li a i.fa#social-google:hover {
     color: white;
     font-weight: bold;
     padding-bottom: 10px;
-
 }
 
 #art2 p {
     color: white;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Google Sans Regular', sans-serif;
     font-size: 15px;
-
 }
 
 #qualification {
@@ -372,8 +387,7 @@ ul.social li a i.fa#social-google:hover {
 .edu h2 {
     font-size: 35px;
     padding: 5px;
-    font-family: 'Play', sans-serif;
-    font-weight: bolder;
+    font-family: 'Google Sans', sans-serif;
 }
 
 .edu h3 {
@@ -387,8 +401,7 @@ ul.social li a i.fa#social-google:hover {
 .edu1 h2 {
     font-size: 35px;
     padding: 5px;
-    font-family: 'Play', sans-serif;
-    font-weight: bolder;
+    font-family: 'Google Sans', sans-serif;
 }
 
 .edu1 h3 {
@@ -409,7 +422,7 @@ ul.social li a i.fa#social-google:hover {
 }
 
 #projects {
-    padding: 80px 10px;
+    padding: 60px 10px;
     background: #f0f0f0;
 }
 
@@ -419,7 +432,7 @@ ul.social li a i.fa#social-google:hover {
     font-size: 1em;
     margin: 0;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Google Sans', sans-serif;
 }
 
 .box a h3 {
@@ -456,13 +469,11 @@ hr {
 }
 
 .box h5 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Google Sans', sans-serif;
     text-transform: uppercase;
     font-size: 11px;
     margin: 0;
     text-align: center !important;
-
-    font-weight: bold;
 }
 
 .box #movies span {
@@ -487,6 +498,11 @@ hr {
     padding: 8px;
     color: white;
 }
+.box #hub span {
+    background: rgba(39, 51, 73, 0.9);
+    padding: 8px;
+    color: white;
+}
 
 .box #quake span {
     background: rgba(64, 167, 155, 0.9);
@@ -496,12 +512,10 @@ hr {
 
 .box {
     padding-bottom: 10px;
-
 }
 
 .main-box {
     padding: 20px 10px;
-
 }
 
 #contact {
@@ -516,13 +530,12 @@ footer {
     padding: 60px 10px 10px 10px;
     color: white;
     text-align: center;
-    font-family: 'Karla', 'sans-serif';
+    font-family: 'Google Sans Regular', 'sans-serif';
     overflow: hidden;
 }
 
 footer p {
     text-align: center;
-
 }
 
 footer h2 {
@@ -581,7 +594,6 @@ footer ul {
 footer ul li a {
     color: white;
     font-size: 16px;
-
 }
 
 footer ul li a:hover {
@@ -593,7 +605,6 @@ footer ul li a:hover {
 
 footer ul li {
     display: inline-block;
-
 }
 
 #scroll {
@@ -622,7 +633,6 @@ footer ul li {
 }
 
 @media only screen and (max-width:1366px) and (min-width:768px) {
-
     #art2 {
         background: url(../images/header2_768.jpg);
         background-attachment: fixed;
@@ -632,8 +642,8 @@ footer ul li {
         padding-bottom: 80px;
     }
     .jumbotron h1 {
-	font-size: 4.8em;
-}
+        font-size: 4.8em;
+    }
     #scroll {
         position: fixed;
         top: 90%;
@@ -643,52 +653,42 @@ footer ul li {
     #menu-icon {
         display: none;
     }
-
 }
 
 @media only screen and (max-width:767px) and (min-width:627px) {
-     #menu-icon {
-
+    #menu-icon {
         display: inline-block;
         float: right;
-
     }
-     nav ul,
+    nav ul,
     nav:active ul {
-
         display: none;
         position: absolute;
         padding: 20px;
         background: #544b40;
         border: 5px solid #2f2c27;
         right: 10px;
-        top: -25px;;
+        top: -25px;
+        ;
         width: 50%;
         border-radius: 4px 0 4px 4px;
-
-
     }
-
     nav li {
-
         text-align: center;
         width: 100%;
         font-size: 18px;
         padding: 10px 0;
         margin: 0;
-
     }
-
     nav:hover ul {
         display: block;
     }
-    .jumbotron h1{
-	font-size: 4.5em;
-}
+    .jumbotron h1 {
+        font-size: 4.5em;
+    }
     #about p {
         font-size: 18px;
         padding: 5px;
-        font-family: 'Karla', sans-serif;
     }
     #art2 {
         background: url(../images/header2_mob.jpg);
@@ -707,13 +707,10 @@ footer ul li {
         font-size: 20px;
         color: #ffffff;
         font-weight: bolder;
-
     }
     #art2 p {
         color: white;
-        font-family: 'Karla', sans-serif;
         font-size: 15px;
-
     }
     #scroll {
         position: fixed;
@@ -721,54 +718,42 @@ footer ul li {
         left: 85%;
         z-index: 4;
     }
-
-
 }
 
 @media only screen and (max-width:626px) and (min-width:489px) {
     #menu-icon {
-
         display: inline-block;
         float: right;
-
     }
-
     .jumbotron h1 {
         font-size: 4em;
     }
     nav ul,
     nav:active ul {
-
         display: none;
         position: absolute;
         padding: 20px;
         background: #544b40;
         border: 5px solid #2f2c27;
         right: 10px;
-        top: -25px;;
+        top: -25px;
+        ;
         width: 50%;
         border-radius: 4px 0 4px 4px;
-
-
     }
-
     nav li {
-
         text-align: center;
         width: 100%;
         font-size: 18px;
         padding: 10px 0;
         margin: 0;
-
     }
-
     nav:hover ul {
         display: block;
     }
     #about p {
         font-size: 18px;
         padding: 5px;
-        font-family: 'Karla', sans-serif;
     }
     #art2 {
         background: url(../images/header2_mob.jpg);
@@ -788,10 +773,8 @@ footer ul li {
     }
     #art2 p {
         color: white;
-        font-family: 'Karla', sans-serif;
         font-size: 15px;
         margin: 0;
-
     }
     #scroll {
         position: fixed;
@@ -799,7 +782,6 @@ footer ul li {
         left: 85%;
         z-index: 4;
     }
-
 }
 
 @media only screen and (max-width:488px) and (min-width:360px) {
@@ -811,44 +793,34 @@ footer ul li {
         font-size: 4em;
     }
     .jumbotron {
-	top:7vh;
-}
+        top: 7vh;
+    }
     nav ul,
     nav:active ul {
-
         display: none;
         position: absolute;
         padding: 20px;
         background: #544b40;
         border: 5px solid #2f2c27;
         right: 10px;
-        top: -25px;;
+        top: -25px;
+        ;
         width: 50%;
-
         border-radius: 4px 0 4px 4px;
-
-
     }
-
     nav li {
-
         text-align: center;
         width: 100%;
         font-size: 15px;
         padding: 10px 0;
         margin: 0;
-
     }
-
     nav:hover ul {
-
         display: block;
-
     }
     #about p {
         font-size: 18px;
         padding: 5px;
-        font-family: 'Karla', sans-serif;
     }
     #art2 {
         background: url(../images/header2_mob.jpg);
@@ -865,14 +837,11 @@ footer ul li {
     }
     #art2 h3 {
         font-size: 20px;
-
     }
     #art2 p {
         color: white;
-        font-family: 'Karla', sans-serif;
         font-size: 15px;
         margin: 0;
-
     }
     #about h1,
     #projects h1,
@@ -889,8 +858,6 @@ footer ul li {
         left: 85%;
         z-index: 4;
     }
-
-
 }
 
 @media only screen and (max-width:359px) {
@@ -898,9 +865,7 @@ footer ul li {
         background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../images/header_mobsm.jpg) no-repeat;
         width: 100%;
     }
-
     #menu-icon {
-
         display: inline-block;
         float: right;
     }
@@ -909,40 +874,30 @@ footer ul li {
     }
     nav ul,
     nav:active ul {
-
         display: none;
         position: absolute;
         background: #544b40;
         border: 5px solid #2f2c27;
         padding: 20px;
         right: 10px;
-        top: -25px;;
+        top: -25px;
+        ;
         width: 50%;
-
         border-radius: 4px 0 4px 4px;
-
-
     }
-
     nav li {
-
         text-align: center;
         width: 100%;
         font-size: 12px;
         padding: 10px 0;
         margin: 0;
-
     }
-
     nav:hover ul {
-
         display: block;
-
     }
     #about p {
         font-size: 15px;
         padding: 5px;
-        font-family: 'Karla', sans-serif;
     }
     #art2 {
         background: url(../images/header2_mob.jpg);
@@ -960,14 +915,11 @@ footer ul li {
     #art2 h3 {
         font-size: 20px;
         padding: 0;
-
     }
     #art2 p {
         color: white;
-        font-family: 'Karla', sans-serif;
         font-size: 15px;
         margin: 0;
-
     }
     #about h1,
     #qualification h1,
@@ -977,7 +929,6 @@ footer ul li {
         padding: 20px;
         margin-bottom: 50px;
         font-weight: bold;
-
     }
     #scroll {
         position: fixed;
@@ -986,7 +937,6 @@ footer ul li {
         z-index: 4;
     }
     .jumbotron {
-	top:5vh;
-}
-
+        top: 5vh;
+    }
 }

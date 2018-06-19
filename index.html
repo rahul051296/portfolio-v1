@@ -35,6 +35,8 @@
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
     <!--Fonts CDN-->
 
@@ -47,9 +49,9 @@
     <link href='https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
     <script>
-        (function(i, s, o, g, r, a, m) {
+        (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
+            i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
             a = s.createElement(o),
@@ -61,7 +63,6 @@
 
         ga('create', 'UA-87119922-4', 'auto');
         ga('send', 'pageview');
-
     </script>
 </head>
 
@@ -71,7 +72,7 @@
 
     <div id="preloader">
         <div id="loader">
-            <img src="images/logo.gif"  width="200px">
+            <img src="images/logo.gif" width="200px">
         </div>
     </div>
 
@@ -82,14 +83,25 @@
         <!--Navigation Bar-->
         <nav class="animated fadeInDown delay-4s">
             <ul>
-                <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#qualification">Qualifications</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li class="active">
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#qualification">Qualifications</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
             </ul>
         </nav>
-        <img src="images/head.png" style="display: inline; margin-top: 20px;" class="hidden-lg hidden-md hidden-sm logo-img animated fadeIn delay-4s img-responsive" id="logo-img" width="40px">
+        <img src="images/head.png" style="display: inline; margin-top: 20px;" class="hidden-lg hidden-md hidden-sm logo-img animated fadeIn delay-4s img-responsive"
+            id="logo-img" width="40px">
 
         <div class="jumbotron">
             <h1 class="animated fadeInDown delay-4s">Rahul Prabhakar</h1>
@@ -99,40 +111,64 @@
             <ul class="social animated fadeInDown delay-4s pad-btm-60">
 
                 <li>
-                    <a href="https://github.com/Rahul051296" target="_blank"><i class="fa  fa-2x fa-github-alt"  id = "social-git"aria-hidden="true"></i></a>
+                    <a href="https://github.com/Rahul051296" target="_blank">
+                        <i class="fa  fa-2x fa-github-alt" id="social-git" aria-hidden="true"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/RahulPrabhakar0596" target="_blank"><i class="fa  fa-2x fa-facebook" id="social-fb"></i></a>
+                    <a href="https://www.facebook.com/RahulPrabhakar0596" target="_blank">
+                        <i class="fa  fa-2x fa-facebook" id="social-fb"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/rahul-prabhakar-8243139a?trk=nav_responsive_tab_profile_pic" target="_blank"><i class="fa  fa-2x fa-linkedin" id="social-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/rahul-prabhakar-8243139a?trk=nav_responsive_tab_profile_pic" target="_blank">
+                        <i class="fa  fa-2x fa-linkedin" id="social-linkedin"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href="https://plus.google.com/u/0/+RahulPrabhakar0596" target="_blank"><i class="fa  fa-2x fa-google-plus" id="social-google"></i></a>
+                    <a href="https://plus.google.com/u/0/+RahulPrabhakar0596" target="_blank">
+                        <i class="fa  fa-2x fa-google-plus" id="social-google"></i>
+                    </a>
                 </li>
             </ul>
-                 <!--Pointer-->
+            <!--Pointer-->
 
-            <a href="#about"><i id="pointer" class="fa fa-2x fa-angle-down pad-top-40" aria-hidden="true"></i></a>
+            <a href="#about">
+                <i id="pointer" class="fa fa-2x fa-angle-down pad-top-40" aria-hidden="true"></i>
+            </a>
         </div>
-       
+
     </header>
     <nav>
-           <a href="#" id="menu-icon" class="animated fadeIn delay-4s hidden-lg hidden-md">
-               <i class="fa  fa-2x fa-bars"></i>
-           </a>
-            <ul class="hidden-lg hidden-md hidden-sm" id="">
-                <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#qualification">Qualifications</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <a href="#" id="menu-icon" class="animated fadeIn delay-4s hidden-lg hidden-md">
+            <i class="fa  fa-2x fa-bars"></i>
+        </a>
+        <ul class="hidden-lg hidden-md hidden-sm" id="">
+            <li class="active">
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#qualification">Qualifications</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
     <!--About Me Section-->
 
     <section>
-        <div id="scroll" style="display:none;"><a href="#home"><i class="fa fa-caret-up" aria-hidden="true" ></i></a></div>
+        <div id="scroll" style="display:none;">
+            <a href="#home">
+                <i class="fa fa-caret-up" aria-hidden="true"></i>
+            </a>
+        </div>
         <article class="container" id="about">
 
             <h1 class="text-center text-primary">About Me</h1>
@@ -145,23 +181,36 @@
                 </div>
 
                 <div class="col-md-5 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0 ">
-                    <p class="text-center text-muted wow animated fadeInUp delay-05s">I'm an Application developer based in Chennai, India. I have completed my <b>Diploma in Web Designing</b> at <b>Shaw Academy.</b> I'm currently enrolled at <b>St. Joseph's College of Engineering, Chennai </b> for my <b>Bachelors degree in Computer Science &amp; Engineering.</b></p>
-                    <p class="text-center text-muted wow animated fadeInUp delay-05s">I enjoy developing apps for web aswell as mobile. My passion is developing computer softwares that simplify our lives. You can check out some of my work at the Projects section of this website. If you're interested in my work, then head over to the contacts area and fill in your details and let me get back to you.</p>
+                    <p class="text-center text-muted wow animated fadeInUp delay-05s">I'm an Application developer based in Chennai, India. I have completed my
+                        <b>Diploma in Web Designing</b> at
+                        <b>Shaw Academy.</b> I'm currently enrolled at
+                        <b>St. Joseph's College of Engineering, Chennai </b> for my
+                        <b>Bachelors degree in Computer Science &amp; Engineering.</b>
+                    </p>
+                    <p class="text-center text-muted wow animated fadeInUp delay-05s">I enjoy developing apps for web aswell as mobile. My passion is developing computer softwares that simplify
+                        our lives. You can check out some of my work at the Projects section of this website. If you're interested
+                        in my work, then head over to the contacts area and fill in your details and let me get back to you.</p>
 
                     <!--Quick Contact Buttons-->
 
                     <div class="row about_con wow animated fadeInUp delay-05s ">
 
                         <div class="col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-4">
-                            <a href="https://www.facebook.com/RahulPrabhakar0596"><i class="fa fa-facebook-square fa-3x facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/RahulPrabhakar0596">
+                                <i class="fa fa-facebook-square fa-3x facebook" aria-hidden="true"></i>
+                            </a>
                         </div>
 
                         <div class="col-md-3 col-sm-3 col-xs-4">
-                            <a href="mailto:rahulprabhakar0596@gmail.com"><i class="fa fa-envelope fa-3x gmail" aria-hidden="true"></i></a>
+                            <a href="mailto:rahulprabhakar0596@gmail.com">
+                                <i class="fa fa-envelope fa-3x gmail" aria-hidden="true"></i>
+                            </a>
                         </div>
 
                         <div class="col-md-3 col-sm-3 col-xs-4">
-                            <a href="tel:+919003397254"><i class="fa fa-phone fa-3x phone" aria-hidden="true"></i></a>
+                            <a href="tel:+919003397254">
+                                <i class="fa fa-phone fa-3x phone" aria-hidden="true"></i>
+                            </a>
                         </div>
 
                     </div>
@@ -180,17 +229,23 @@
             <div class="row">
 
                 <div class="col-md-2 col-md-offset-2 col-sm-4 col-xs-12 wow animated fadeInUp delay-05s">
-                    <center><i class="fa fa-code" style="color:white; font-size:100px;" aria-hidden="true"></i></center>
+                    <center>
+                        <i class="fa fa-code" style="color:white; font-size:100px;" aria-hidden="true"></i>
+                    </center>
                     <h3 class="text-center">Web Development</h3>
                     <p class="text-center">I specialise in designing and developing customised websites with an easy to navigate UI.</p>
                 </div>
                 <div class="col-md-2 col-md-offset-1 col-sm-4 col-xs-12 wow animated fadeInUp delay-05s">
-                    <center><i class="fa fa-mobile" style="color:white; font-size:100px;" aria-hidden="true"></i></center>
+                    <center>
+                        <i class="fa fa-mobile" style="color:white; font-size:100px;" aria-hidden="true"></i>
+                    </center>
                     <h3 class="text-center">Mobile App Development</h3>
                     <p class="text-center">Mobile application development using the Ionic framework and Android Studio.</p>
                 </div>
                 <div style="margin-top:10px;" class="col-md-2 col-md-offset-1 col-sm-4 col-xs-12 wow animated fadeInUp delay-05s">
-                    <center><img src="images/angularjs.png" width="100px"></center>
+                    <center>
+                        <img src="images/angularjs.png" width="100px">
+                    </center>
                     <h3 class="text-center">Angular</h3>
                     <p class="text-center">The Superheroic Framework for both Mobile and Web Application development.</p>
                 </div>
@@ -242,7 +297,8 @@
                     </div>
                     <div class="col-md-6">
                         <h2 class="text-center text-info">2013-2014</h2>
-                        <p class="text-center">XII<sup>th</sup> Grade</p>
+                        <p class="text-center">XII
+                            <sup>th</sup> Grade</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -254,7 +310,8 @@
 
                     <div class="col-md-6">
                         <h2 class="text-center text-info">2011-2012</h2>
-                        <p class="text-center">X<sup>th</sup> Grade</p>
+                        <p class="text-center">X
+                            <sup>th</sup> Grade</p>
                     </div>
                     <div class="clearfix"></div>
 
@@ -271,47 +328,69 @@
                 <h1 class="text-center text-primary">Projects</h1>
             </div>
             <div class="container">
+                <!-- Set up your HTML -->
+                <div class="owl-carousel owl-theme">
+                    <div class="item main-box wow animated fadeIn delay-1s">
+                        <a href="" target="_blank" data-toggle="modal" data-target="#movieBuffsModal">
+                            <img src="images/project_mb.jpg" class="img-responsive banner">
+                        </a>
+                        <div class="box">
+                            <h5 id="movies">
+                                <span>Web App</span>
+                            </h5>
+                        </div>
+                    </div>
 
-                <div class="col-md-4 col-sm-6 col-xs-12 main-box wow animated fadeIn delay-1s">
-                    <a href="" target="_blank" data-toggle="modal" data-target="#movieBuffsModal">
-                        <img src="images/project_mb.jpg" class="img-responsive banner">
+                    <div class="item main-box wow animated fadeIn delay-1s">
+                        <a href="" target="_blank" data-toggle="modal" data-target="#quakeModal">
+                            <img src="images/project_quake.jpg" class="img-responsive banner">
                         </a>
-                    <div class="box">
-                        <h5 id="movies"><span>Web App</span></h5>
+                        <div class="box">
+                            <h5 id="quake">
+                                <span>Android App</span>
+                            </h5>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-md-4 col-sm-6 col-xs-12 main-box wow animated fadeIn delay-1s">
-                    <a href="" target="_blank" data-toggle="modal" data-target="#quakeModal">
-                        <img src="images/project_quake.jpg" class="img-responsive banner">
+                    <div class="item main-box wow animated fadeIn delay-1s">
+                        <a href="" target="_blank" data-toggle="modal" data-target="#mbAppModal">
+                            <img src="images/project_mb_app.jpg" class="img-responsive banner">
                         </a>
-                    <div class="box">
-                        <h5 id="quake"><span>Android App</span></h5>
+                        <div class="box">
+                            <h5 id="mbapp">
+                                <span>Android App</span>
+                            </h5>
+                        </div>
                     </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6 col-xs-12 main-box wow animated fadeIn delay-1s">
-                    <a href="" target="_blank" data-toggle="modal" data-target="#mbAppModal">
-                        <img src="images/project_mb_app.jpg" class="img-responsive banner">
+                    <div class="item main-box wow animated fadeIn delay-1s">
+                        <a href="" target="_blank" data-toggle="modal" data-target="#cseModal">
+                            <img src="images/project_cse.jpg" class="img-responsive banner">
                         </a>
-                    <div class="box">
-                        <h5 id="mbapp"><span>Android App</span></h5>
+                        <div class="box">
+                            <h5 id="cse">
+                                <span>Website</span>
+                            </h5>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 main-box wow animated fadeIn delay-1s">
-                    <a href="" target="_blank" data-toggle="modal" data-target="#cseModal">
-                        <img src="images/project_cse.jpg" class="img-responsive banner">
+                    <div class="item main-box wow animated fadeIn delay-1s">
+                        <a href="" target="_blank" data-toggle="modal" data-target="#bounceModal">
+                            <img src="images/project_bounce.jpg" class="img-responsive">
                         </a>
-                    <div class="box">
-                        <h5 id="cse"><span>Website</span></h5>
+                        <div class="box">
+                            <h5 id="bounce">
+                                <span>Web App</span>
+                            </h5>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 main-box wow animated fadeIn delay-1s">
-                    <a href="" target="_blank" data-toggle="modal" data-target="#bounceModal">
-                        <img src="images/project_bounce.jpg" class="img-responsive">
+                    <div class="item main-box wow animated fadeIn delay-1s">
+                        <a href="" target="_blank" data-toggle="modal" data-target="#hubModal">
+                            <img src="images/project_the_hub.jpg" class="img-responsive">
                         </a>
-                    <div class="box">
-                        <h5 id="bounce"><span>Web App</span></h5>
+                        <div class="box">
+                            <h5 id="hub">
+                                <span>Web App</span>
+                            </h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -364,13 +443,18 @@
                                 </div>
                             </div>
                             <div class="details">
-                                <p class="text-center text-justify">Movie Buffs is a web app built to provide instant information about Movies, TV Shows and Celebrities. It showcases an ever growing list of over 350,000 movies and 70,000 TV Shows.</p>
-                                <p><b> FrontEnd: </b>AngularJS, JQuery, CSS3, HTML5.</p>
-                                <p> <b>BackEnd:</b> RESTful API from TMDB.</p>
+                                <p class="text-center text-justify">Movie Buffs is a web app built to provide instant information about Movies, TV Shows and
+                                    Celebrities. It showcases an ever growing list of over 350,000 movies and 70,000 TV Shows.</p>
+                                <p>
+                                    <b> FrontEnd: </b>AngularJS, JQuery, CSS3, HTML5.</p>
+                                <p>
+                                    <b>BackEnd:</b> RESTful API from TMDB.</p>
 
                             </div>
                             <div class="text-center">
-                                <a href="http://movie-buffs.xyz/" target="_blank"><button type="button" class="btn btn-info">Visit Website</button></a>
+                                <a href="http://movie-buffs.xyz/" target="_blank">
+                                    <button type="button" class="btn btn-info">Visit Website</button>
+                                </a>
                             </div>
                         </div>
                         <div class="modal-footer hidden-lg hidden-md hidden-xl hidden-sm">
@@ -408,13 +492,18 @@
                                 </div>
                             </div>
                             <div class="details">
-                                <p class="text-center text-justify">Quake Alert was developed to provide instant information on all the Earthquakes being recorded around the world. It provides detailed description on each earthquake and it's effects.</p>
-                                <p><b>FrontEnd: </b> Android Studio - Java, XML.</p>
-                                <p><b>BackEnd: </b> RESTful API from USGS.</p>
+                                <p class="text-center text-justify">Quake Alert was developed to provide instant information on all the Earthquakes being recorded
+                                    around the world. It provides detailed description on each earthquake and it's effects.</p>
+                                <p>
+                                    <b>FrontEnd: </b> Android Studio - Java, XML.</p>
+                                <p>
+                                    <b>BackEnd: </b> RESTful API from USGS.</p>
 
                             </div>
                             <div class="text-center">
-                                <a href="https://play.google.com/store/apps/details?id=com.rahul0596.quakealert" target="_blank"><button type="button" class="btn btn-info">View on Play Store</button></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.rahul0596.quakealert" target="_blank">
+                                    <button type="button" class="btn btn-info">View on Play Store</button>
+                                </a>
                             </div>
                         </div>
                         <div class="modal-footer hidden-lg hidden-md hidden-xl hidden-sm">
@@ -456,13 +545,19 @@
                                 </div>
                             </div>
                             <div class="details">
-                                <p class="text-center text-justify">Movie Buffs is an Hybrid app built to provide instant information about Movies, TV Shows and Celebrities. It showcases an ever growing list of over 350,000 movies and 70,000 TV Shows. It comes with an easy to navigate native UI.</p>
-                                <p><b> FrontEnd: </b>Ionic Framework, SCSS, HTML.</p>
-                                <p> <b>BackEnd:</b> RESTful API from TMDB.</p>
+                                <p class="text-center text-justify">Movie Buffs is an Hybrid app built to provide instant information about Movies, TV Shows
+                                    and Celebrities. It showcases an ever growing list of over 350,000 movies and 70,000
+                                    TV Shows. It comes with an easy to navigate native UI.</p>
+                                <p>
+                                    <b> FrontEnd: </b>Ionic Framework, SCSS, HTML.</p>
+                                <p>
+                                    <b>BackEnd:</b> RESTful API from TMDB.</p>
 
                             </div>
                             <div class="text-center">
-                                <a href="https://play.google.com/store/apps/details?id=com.rahul0596.moviebuffs" target="_blank"><button type="button" class="btn btn-info">View on Play Store</button></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.rahul0596.moviebuffs" target="_blank">
+                                    <button type="button" class="btn btn-info">View on Play Store</button>
+                                </a>
                             </div>
                         </div>
                         <div class="modal-footer hidden-lg hidden-md hidden-xl hidden-sm">
@@ -512,12 +607,16 @@
                                 </div>
                             </div>
                             <div class="details">
-                                <p class="text-center text-justify">The Official website for the Department of Computer Science &amp; Engineering of St. Joseph's College &amp; Engineering, Chennai.
+                                <p class="text-center text-justify">The Official website for the Department of Computer Science &amp; Engineering of St. Joseph's
+                                    College &amp; Engineering, Chennai.
                                 </p>
-                                <p><b>FrontEnd:</b> Angular - TypeScript, jQuery, CSS3, HTML5</p>
+                                <p>
+                                    <b>FrontEnd:</b> Angular - TypeScript, jQuery, CSS3, HTML5</p>
                             </div>
                             <div class="text-center">
-                                <a href="http://rahulprabhakar.in/sjce-cse/" target="_blank"><button type="button" class="btn btn-info">Visit Website</button></a>
+                                <a href="http://rahulprabhakar.in/sjce-cse/" target="_blank">
+                                    <button type="button" class="btn btn-info">Visit Website</button>
+                                </a>
                             </div>
                         </div>
                         <div class="modal-footer hidden-lg hidden-md hidden-xl hidden-sm">
@@ -566,10 +665,68 @@
                                 <p class="text-center text-justify">Bounce is a simple JavaScript based Game Module.
                                 </p>
                                 <p><b>FrontEnd: </b> JavaScript - ES6 Standard, CSS3, HTML.</p>
-
                             </div>
                             <div class="text-center">
-                                <a href="http://rahulprabhakar.in/bounce/" target="_blank"><button type="button" class="btn btn-info">Visit Website</button></a>
+                                <a href="http://rahulprabhakar.in/bounce/" target="_blank">
+                                    <button type="button" class="btn btn-info">Visit Website</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="modal-footer hidden-lg hidden-md hidden-xl hidden-sm">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <!-- Bounce Modal -->
+            <div class="modal fade" id="hubModal" role="dialog">
+                <div class="modal-dialog modal-md">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">The Hub</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div id="hubCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#hubCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#hubCarousel" data-slide-to="1"></li>
+                                    <li data-target="#hubCarousel" data-slide-to="2"></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="images/Hub_Model/01.png" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/Hub_Model/02.png" style="width:100%;">
+                                    </div>
+                                    <div class="item">
+                                        <img src="images/Hub_Model/03.png" style="width:100%;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="details">
+                                <p class="text-center text-justify">The Hub is a Social Media Platform which currates your news feed based on your Interest.
+                                    It also has a Conversational AI to guide you around.
+                                </p>
+                                <p>
+                                    <b>FrontEnd: </b> JavaScript - ES6 Standard, CSS3, HTML.</p>
+                                    <p>
+                                        <b>BackEnd: </b> PHP, MySql, RASA Stack.</p>
+                            </div>
+                            <div class="text-center">
+                                <a href="http://the-hub.ml/" target="_blank">
+                                    <button type="button" class="btn btn-info">Visit Website</button>
+                                </a>
                             </div>
                         </div>
                         <div class="modal-footer hidden-lg hidden-md hidden-xl hidden-sm">
@@ -636,11 +793,21 @@
                 <i class="fa fa-3x fa-compass" aria-hidden="true"></i>
                 <h2>Navigation</h2>
                 <ul>
-                    <li class="active"><a href="#home">Home |</a></li>
-                    <li><a href="#about">About |</a></li>
-                    <li><a href="#qualification">Qualifications |</a></li>
-                    <li><a href="#projects">Projects |</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li class="active">
+                        <a href="#home">Home |</a>
+                    </li>
+                    <li>
+                        <a href="#about">About |</a>
+                    </li>
+                    <li>
+                        <a href="#qualification">Qualifications |</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects |</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
                 </ul>
 
             </div>
@@ -658,9 +825,15 @@
 
             <div class="col-md-12">
 
-                <a href="https://www.facebook.com/RahulPrabhakar0596" target="_blank"><i class="fa fa-facebook f-fb"></i></a>
-                <a href="https://www.linkedin.com/in/rahul-prabhakar-8243139a?trk=nav_responsive_tab_profile_pic" target="_blank"><i class="fa fa-linkedin f-lin"></i></a>
-                <a href="https://plus.google.com/u/0/+RahulPrabhakar0596" target="_blank"><i class="fa fa-google-plus f-gp"></i></a>
+                <a href="https://www.facebook.com/RahulPrabhakar0596" target="_blank">
+                    <i class="fa fa-facebook f-fb"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/rahul-prabhakar-8243139a?trk=nav_responsive_tab_profile_pic" target="_blank">
+                    <i class="fa fa-linkedin f-lin"></i>
+                </a>
+                <a href="https://plus.google.com/u/0/+RahulPrabhakar0596" target="_blank">
+                    <i class="fa fa-google-plus f-gp"></i>
+                </a>
                 <p>Copyright &copy; Rahul Prabhakar 2016-2018 | All Rights Reserved &reg; </p>
 
             </div>
@@ -671,11 +844,11 @@
     <!--JS PLUGINS-->
 
     <script src="js/jquery.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/wow.js"></script>
     <script>
         new WOW().init();
-
     </script>
     <script src="js/datedropper.min.js"></script>
     <script src="js/particles.js"></script>
